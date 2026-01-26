@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: tobias-testing/barsoom@0.0.2
+        uses: tobias-testing/barsoom@0.0.3
         with:
           name: Brown
 
