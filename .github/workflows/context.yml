@@ -13,4 +13,4 @@ jobs:
           echo "Actor $MY_ACTOR"
         env:
           MY_ACTION: ${{ github.action }}
-          MY_ACTOR: ${{ github.action}}
+          MY_ACTOR: ${{ github.actor}}
